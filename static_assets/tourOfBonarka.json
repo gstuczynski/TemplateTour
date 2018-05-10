@@ -1,0 +1,283 @@
+{
+   "nav_icon": "chester_icon.png",
+   "firstPhotoId":"BONARKA01",
+   "firstPhotoRotation":150,
+   "soundEffects": {
+      "navButton": {
+         "onEnter": {
+            "uri": "switch-flip.wav",
+            "attributionUri": "https://www.freesound.org/people/ianstargem/sounds/278205/"
+         },
+         "onClick": {
+            "uri": "menu-click.wav",
+            "attributionUri": "https://www.freesound.org/people/fins/sounds/146721/"
+         }
+      },
+      "infoButton": {
+         "onEnter": {
+            "uri": "switch-flip.wav",
+            "attributionUri": ""
+         }
+      },
+      "ambient": {
+         "uri": "cafe.wav",
+         "attributionUri": "",
+         "loop": true,
+         "volume": 0.50
+      }
+   },
+   "photos":{
+      "BONARKA01":{
+         "rotationOffset": 0,
+         "uri":"test_sv.jpg",
+         "tooltips":[
+            {
+               "text":"Bonarka Wejście 2",
+               "translateX": -630,
+               "translateY": 20,
+               "linkedPhotoId":"BONARKA02"
+            },
+            {
+               "type": "panelimage",
+               "title": "Staw Bonarka",
+               "text": "Staw ten i przyległe zarośla to jedno z najbogatszych i najbardziej atrakcyjnych pod względem ornitologicznym miejsc w Krakowie. Swoje siedliska założyły tu rzadkie perkozy dwuczube, perkoziki, łyski, kokoszki wodne i krzyżówki. Największe emocje budzi jednak obecność bączka, chronionego w Europie ptaka, wpisanego na polską czerwoną listę gatunków zagrożonych wyginięciem, objętego dyrektywami Unii Europejskiej. Bączek, najmniejsza europejska czapla, od lat wiosną przylatuje na stawy Bonarki i tu gniazduje.",
+               "translateX": 1000,
+               "translateY": -70,
+               "width": 3,
+               "height": 1,
+               "source":"staw_bonarka.png"
+            }
+         ]
+      },
+      "BONARKA02":{
+        "rotationOffset": 10,
+        "uri":"bonarka-02.JPG",
+        "tooltips":[
+           {
+             "type": "panelimage",
+              "text":"Zakłady Chemiczne Bonarka - zaniedbywana przez lata fabryka popadła w ruinę i została ostatecznie zamknięta w 2003 roku, w 2006 r. nowy właściciel rozpoczoł rekultywację gruntu i w 2009 r. powstało centrum handlowe Bonarka",
+              "source":"zch-bonarka.jpg",
+              "width": 3,
+              "height": 1,
+              "translateX": -1800
+           },
+           {
+             "type": "panelimage",
+              "text":"Komin - pozostałość po zakładach chemicznych.",
+              "source":"bonarka-komin.png",
+              "width": 1,
+              "height": 2,
+              "translateX": -540,
+              "translateY": 200
+           },
+           {
+              "text":"Staw Bonarka",
+              "linkedPhotoId":"BONARKA01",
+              "translateX": 1350,
+              "translateY":-20
+           },
+           {
+              "text":"Kamińskiego Retail Park",
+              "linkedPhotoId":"BONARKA03",
+              "translateX": -900,
+              "translateY": 30
+           }
+        ]
+     },
+     "BONARKA03":{
+        "rotationOffset": 10,
+        "uri":"bonarka-03.JPG",
+        "tooltips":[
+           {
+              "text":"Bonarka Wejście 2",
+              "translateX": 1020,
+              "linkedPhotoId":"BONARKA02"
+           },
+           {
+              "text":"Rezerwat Bonarka",
+              "translateX": 0,
+              "linkedPhotoId":"BONARKA04",
+              "translateX": -1780,
+              "translateY": -20
+           },
+           {
+             "type": "panelimage",
+              "text":"Projekt kompleksu handlowo-usługowego Kamieńskiego Retail Park",
+              "source":"bonarka-retailpark.png",
+              "width": 3,
+              "height": 5,
+              "translateX": 1100,
+              "translateY": -100,
+              "img": {
+                "height": 300,
+                "width": 650
+              }
+           }
+        ]
+     }, "BONARKA04": {
+         "rotationOffset": 10,
+         "uri":"bonarka-04.JPG",
+         "tooltips":[
+            {
+               "text":"Kamińskiego",
+               "translateX": 0,
+               "linkedPhotoId":"BONARKA03",
+               "translateX": -650,
+               "translateY": 30
+            },
+            {
+               "text":"Pomnik Ofiar Faszyzmu",
+               "translateX": -2000,
+               "translateY": 100,
+               "linkedPhotoId":"BONARKA05"
+            },
+            {
+               "text":"Obóz Płaszów",
+               "translateX": 0,
+               "linkedPhotoId":"BONARKA06",
+               "translateX": 1100,
+               "translateY": 20
+            },
+            {
+               "type": "panelimage",
+               "source": "bonarka-tab.JPG",
+               "text":"",
+               "width": 3,
+               "height": 5,
+               "translateX": 320,
+               "translateY": -30,
+               "img": {
+                 "height": 300,
+                 "width": 650
+               }
+            }
+         ]
+      },
+      "BONARKA05":{
+          "rotationOffset": 10,
+          "uri":"bonarka-05.JPG",
+          "tooltips":[
+             {
+               "type": "textblock",
+               "title": "Pomnik Ofiar Faszyzmu",
+               "text": "Pomnik przedstawia pięć postaci stojących w szeregu, z głowami ugiętymi pod ciężarem kamiennego bloku i wyrwą w kamieniu na wysokości piersi. Na tylnej części rzeźby znajduje się napis: W hołdzie męczennikom pomordowanym przez hitlerowskich ludobójców w latach 1943–1945. Pomnik ulokowany został na wale dawnych austro-węgierskich umocnień wojskowych (Szańca FS-22. Szaniec ten znajdował się przy zewnętrznym płocie obozowym, na terenie szańca w czasie istnienia obozu dokonywano masowych egzekucji). Plac apelowy obozu Plaszow oraz baraki więźniów znajdowały się około 400 metrów na północny wschód od obecnego pomnika. Wokół pomnika wykonano założenie krajobrazowe z szerokimi schodami i roślinnością. Rzeźba nie posiada żadnych bezpośrednich odniesień do tożsamości upamiętnionych osób, ani odniesień w formie napisu do samego hitlerowskiego obozu.",
+                "width": 3,
+                "height": 5,
+                "translateX": 200,
+                "translateY": 100
+             },
+             {
+               "type": "video",
+               "source": "oboz-plaszow.webm",
+               "width": 5,
+               "height": 3,
+               "translateX": 50,
+               "translateY": 0,
+               "muted":false,
+               "autoPlay": false
+             },
+             {
+               "type": "panelimage",
+                "source":"bonarka-tab.JPG",
+                "width": 3,
+                "height": 5,
+                "translateX": 1600,
+                "translateY": -120,
+                "img": {
+                  "height": 300,
+                  "width": 600
+                }
+             }
+          ]
+       },
+      "112392":{
+         "rotationOffset": 80,
+         "uri":"the-chester--v112392.prefilter.jpg",
+         "tooltips":[
+            {
+               "text":"The Snug",
+               "rotationY": -11.33789063,
+               "linkedPhotoId":"112371"
+            },
+            {
+               "text":"Biergarten",
+               "rotationY": -112.2363281,
+               "linkedPhotoId":"112351"
+            }
+         ]
+      },
+      "112399":{
+         "rotationOffset": 90,
+         "uri":"the-chester--v112399.prefilter.jpg",
+         "tooltips":[
+            {
+               "text":"Restaurant",
+               "rotationY": -115,
+               "linkedPhotoId":"112362"
+            },
+            {
+               "type": "video",
+               "rotationY": 80,
+               "width": 2.560,
+               "height": 1.240,
+               "source":"Three-Cocktails.webm",
+               "muted":true
+            },
+            {
+               "type": "image",
+               "rotationY": -53,
+               "width": 1.020,
+               "height": 1.388,
+               "source":"chalkboard-menu.jpg",
+               "attribution": "Photo by currystrumpet on flickr",
+               "attributionUri": "https://www.flickr.com/photos/currystrumpet/7895715748"
+            }
+         ]
+      },
+      "112371":{
+         "rotationOffset": -20,
+         "uri":"the-chester--v112371.prefilter.jpg",
+         "tooltips":[
+            {
+               "text":"Biergarten",
+               "rotationY": -92.02148438,
+               "linkedPhotoId":"112392"
+            },
+            {
+               "type": "textblock",
+               "text": "Cosy athmosphere with fine leather seats. Relax with friends and select from a wide range of German beers. The late-night bites menu includes pretzels, hot wings, and sliders.",
+               "rotationY": 100.42,
+               "width": 1.0,
+               "height": 1.0
+            }
+         ]
+      },
+      "112393":{
+         "rotationOffset": 140,
+         "uri":"the-chester--v112393.prefilter.jpg",
+         "tooltips":[
+            {
+               "text":"Biergarten",
+               "rotationY": 29.348,
+               "linkedPhotoId":"112355"
+            }
+         ]
+      },
+      "112351":{
+         "rotationOffset": -80,
+         "uri":"the-chester--v112351.prefilter.jpg",
+         "tooltips":[
+            {
+               "text":"Biergarten",
+               "rotationY": -102.793,
+               "linkedPhotoId":"112392"
+            },
+            {
+               "text":"Biergarten",
+               "rotationY": 63.843,
+               "linkedPhotoId":"112355"
+            }
+         ]
+      }
+   }
+}
