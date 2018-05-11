@@ -9,7 +9,6 @@ function init(bundle, parent, options = {}) {
     fullScreen: true,
     ...options,
   });
-console.log(r360)
   // Render your app content to the default cylinder surface
   r360.renderToLocation(
     r360.createRoot('TemplateTour'),

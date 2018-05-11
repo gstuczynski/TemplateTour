@@ -1,0 +1,35 @@
+{
+  "rotationOffset": 10,
+  "uri":"bonarka-02.JPG",
+  "tooltips":[
+     {
+       "type": "panelimage",
+        "text":"Zakłady Chemiczne Bonarka - zaniedbywana przez lata fabryka popadła w ruinę i została ostatecznie zamknięta w 2003 roku, w 2006 r. nowy właściciel rozpoczoł rekultywację gruntu i w 2009 r. powstało centrum handlowe Bonarka",
+        "source":"zch-bonarka.jpg",
+        "width": 3,
+        "height": 1,
+        "translateX": -1800
+     },
+     {
+       "type": "panelimage",
+        "text":"Komin - pozostałość po zakładach chemicznych.",
+        "source":"bonarka-komin.png",
+        "width": 1,
+        "height": 2,
+        "translateX": -540,
+        "translateY": 200
+     },
+     {
+        "text":"Staw Bonarka",
+        "linkedPhotoId":"BONARKA01",
+        "translateX": 1350,
+        "translateY":-20
+     },
+     {
+        "text":"Kamińskiego Retail Park",
+        "linkedPhotoId":"BONARKA03",
+        "translateX": -900,
+        "translateY": 30
+     }
+  ]
+}
