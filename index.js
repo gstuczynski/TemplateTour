@@ -5,7 +5,7 @@ import InfoButton from './InfoButton';
 import NavButton from './NavButton';
 import LoadingSpinner from './LoadingSpinner';
 
-import CylindricalPanel from 'CylindricalPanel';
+import QuadPanel from 'QuadPanel';
 
 // Web VR is only able to support a maxiumum texture resolution of 4096 px
 const MAX_TEXTURE_WIDTH = 4096;
@@ -99,13 +99,23 @@ class TemplateTour extends React.Component {
             }}
             source={asset(this.state.data.photos[this.state.nextLocationId].uri)}
           />
-          <CylindricalPanel
+          <QuadPanel
             layer={{
               width: MAX_TEXTURE_WIDTH,
               height: MAX_TEXTURE_HEIGHT,
               density: MAX_TEXTURE_WIDTH,
+              distance: 0
             }}
-            style={{position: 'absolute'}}>
+            style={{
+              //position: 'fixed',
+              transform: [
+                //{rotateX: 90},
+                {rotateY: 90},
+                //{rotateZ: 90},
+                {translateX: -1},
+                {translateZ: -2},
+              ]
+            }}>
             <View
               style={{
                 // View covering the cyldiner. Center so contents appear in middle of cylinder.
@@ -113,6 +123,7 @@ class TemplateTour extends React.Component {
                 justifyContent: 'center',
                 width: MAX_TEXTURE_WIDTH,
                 height: MAX_TEXTURE_HEIGHT,
+                
               }}>
               {/* Need container view, else using absolute position on buttons removes them from cylinder */}
               <View>
@@ -129,8 +140,9 @@ class TemplateTour extends React.Component {
                           pixelsPerMeter={PPM}
                           source={asset('info_icon.png')}
                           tooltip={tooltip}
-                          translateX={tooltip.translateX}
-                          translateY={tooltip.translateY}
+                          //translateX={tooltip.translateX}
+                          //translateY={tooltip.translateY}
+                          // style={{transform: [{rotateZ: 1000}]}}
                         />
                       );
                     }
@@ -166,7 +178,7 @@ class TemplateTour extends React.Component {
                   />}
               </View>
             </View>
-          </CylindricalPanel>
+          </QuadPanel>
         </View>
       </View>
     );

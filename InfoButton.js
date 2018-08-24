@@ -68,11 +68,14 @@ class InfoButton extends React.Component {
     return (
       <VrButton
         style={{
-          layoutOrigin: [0.5, 0.5, 0],
+          //layoutOrigin: [0.5, 0.5, 0],
           position: 'absolute',
           transform: [
-            {translateX: this.props.translateX},
-            {translateY: this.props.translateY},
+            //{translateX: this.props.translateX},
+            //{translateY: this.props.translateY},
+            // {rotateY: 5000},
+            // {rotateX: 5000},
+            // {rotateZ: 5000}
           ],
         }}
         ignoreLongClick={true}
@@ -89,6 +92,11 @@ class InfoButton extends React.Component {
             height: 0.3 * PPM,
             width: 0.3 * PPM,
             flexDirection: 'row',
+            transform: [
+              //{translateX: this.props.translateX},
+              //{translateY: this.props.translateY},
+              // {rotateZ: 5000}
+            ],
           }}
           onEnter={() => {
             this._fadeIn();
