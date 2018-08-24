@@ -18,6 +18,12 @@
             "uri": "switch-flip.wav",
             "attributionUri": ""
          }
+      },
+      "ambient": {
+         "uri": "cafe.wav",
+         "attributionUri": "",
+         "loop": true,
+         "volume": 0.50
       }
    },
    "photos":{
